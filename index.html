@@ -2,6 +2,7 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
         <script src="https://kit.fontawesome.com/9d609b1277.js" crossorigin="anonymous"></script>
         <link href="css/styles.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,43 +14,42 @@
                 <header>
                     <nav class="booki_header">
                         <a href="index.html">
-                            <img src="ImagesBooki\logo\Booki.png" alt="logo_booki" class="booki_logo">
+                            <img src="ImagesBooki/logo/Booki.png" alt="logo_booki" class="booki_logo">
                         </a>
                             <div class="lien_header">
-                                <a href="#" class="hbrg">Hébergements</a>
-                                <a href="#" class="actv">Activités</a>
+                                <a href="#hebergements" class="hbrg">Hébergements</a>
+                                <a href="#activités" class="actv">Activités</a>
                             </div>
                     </nav>
                 </header>
                 <main>
                     <h1>Trouvez votre Hébergements pour des vacances de rêve</h1>
                     <p>En plein cente-ville ou en pleine nature</p>                   
-                    <form method="get" action="" class="formulaire"> 
+                    <form method="get" action="#" class="formulaire"> 
                         <div class="icon_dot">
                             <i class="fa-solid fa-location-dot"></i>
                         </div>
                         <label for="dot"></label>
                         <input type="text" name="dot" id="dot" placeholder="Marseille, France" size="30" maxlength="20">
                         <input type="submit" value="Rechercher" class="bouton1">  
-                        
-                       
                     </form>
+                    
                     <div class="filt">
                         <div class="fil">Filtres</div>
-                        <div class="eco"> <i class="fa-solid fa-money-bill-wave"></i>Économique</div>
-                        <div class="fami"> <i class="fa-solid fa-person"></i>Familial</div>
-                        <div class="roma"> <i class="fa-solid fa-heart"></i>Romantique</div>
-                        <div class="anim"> <i class="fa-solid fa-dog"></i>Animaux autorisée</div>
+                        <div class="eco"> <i class="fa-solid fa-money-bill-wave"></i> Économique</div>
+                        <div class="fami"> <i class="fa-solid fa-person"></i> Familial</div>
+                        <div class="roma"> <i class="fa-solid fa-heart"></i> Romantique</div>
+                        <div class="anim"> <i class="fa-solid fa-dog"></i> Animaux autorisée</div>
                     </div>
                     <div class="info1">
                             <div class="info2"> <i class="fa-solid fa-info"> </i> </div> 
                              <span class="txt">Plus de 500 logements sont disponibles dans cette ville </span>
                     </div>
                 <div class="center">
-                        <div class="hbrgam"> 
-                            <h2>Hébergements à Marseille</h2>
+                        <section class="hbrgam"> 
+                            <h2 id="hebergements">Hébergements à Marseille</h2>
                         <div class="card1"> 
-                            <img src="ImagesBooki\hebergements\4_small\hebergement1.jpg" alt="Image Hôtel de La Canebière" style="width: 100%;">
+                            <img src="ImagesBooki/hebergements/4_small/hebergement1.jpg" alt="Image Hôtel de La Canebière" style="width: 100%;">
                                 <div class="container1">
                                     <span class="typo">Hôtel de La Canebière<br></span>
                                     <span>Nuit à partir de 25€</span>
@@ -63,7 +63,7 @@
                             </div>    
                         </div>
                         <div class="card1"> 
-                            <img src="ImagesBooki\hebergements\4_small\hebergement2.jpg" alt="Image Hôtel du port" style="width: 100%;">
+                            <img src="ImagesBooki/hebergements/4_small/hebergement2.jpg" alt="Image Hôtel du port" style="width: 100%;">
                                 <div class="container1">
                                     <span class="typo">Hôtel du port<br></span>
                                     <span>Nuit à partir de 52€</span>
@@ -77,7 +77,7 @@
                                 </div>    
                             </div>
                             <div class="card1"> 
-                                <img src="ImagesBooki\hebergements\4_small\hebergement3.jpg" alt="Image Hôtel Les mouettes" style="width: 100%;">
+                                <img src="ImagesBooki/hebergements/4_small/hebergement3.jpg" alt="Image Hôtel Les mouettes" style="width: 100%;">
                                     <div class="container1">
                                         <span class="typo">Hôtel Les mouettes<br></span>
                                         <span>Nuit à partir de 76€</span>
@@ -91,7 +91,7 @@
                                 </div>    
                             </div>
                             <div class="card1"> 
-                                <img src="ImagesBooki\hebergements\4_small\hebergement4.jpg" alt="Image Hôtel de la mer" style="width: 100%;">
+                                <img src="ImagesBooki/hebergements/4_small/hebergement4.jpg" alt="Image Hôtel de la mer" style="width: 100%;">
                                     <div class="container1">
                                         <span class="typo">Hôtel de la mer<br></span>
                                         <span>Nuit à partir de 46€</span>
@@ -105,7 +105,7 @@
                                 </div>    
                             </div>
                             <div class="card1"> 
-                                <img src="Images Booki\hebergements\4_small\hebergement5.jpg" alt="Image Auberge Le Panier" style="width: 100%;">
+                                <img src="ImagesBooki/hebergements/4_small/hebergement5.jpg" alt="Image Auberge Le Panier" style="width: 100%;">
                                     <div class="container1">
                                         <span class="typo">Auberge Le Panier<br></span>
                                         <span>Nuit à partir de 23€</span>
@@ -119,7 +119,7 @@
                                 </div>    
                             </div>
                             <div class="card1"> 
-                                <img src="ImagesBooki\hebergements\4_small\hebergement6.jpg" alt="Image Chez Amina" style="width: 100%;">
+                                <img src="ImagesBooki/hebergements/4_small/hebergement6.jpg" alt="Image Chez Amina" style="width: 100%;">
                                     <div class="container1">
                                         <span class="typo">Hôtel Chez Amina<br></span>
                                         <span>Nuit à partir de 25€</span>
@@ -133,18 +133,21 @@
                                 </div>    
                             </div>
                             <div class="affich">Afficher plus</div>
-                        </div> 
-                        <div class="popu"> 
+                        </section> 
+                        <aside class="popu"> 
                             <div class="pop_head">
                                 <h2>Les plus populaires</h2>
                                     <i class="fa-solid fa-chart-line"></i>   
                             </div>
+                            <div class="popucard0">
                             <div class="popucard1">
-                                <img src="Images Booki\hebergements\4_small\popu1.jpg" alt="Image Hôtel Le soleil du matin" style="width: 37%;">
+                                <img src="ImagesBooki/hebergements/1_xlarge/popu1.jpg" alt="Image Hôtel Le soleil du matin" style="width: 100%;">
                                 <div class="txtpopu">
                                     <div>
-                                        <div class="typopopu">Hôtel Le soleil du <br>matin </div>
+                                        <div class="container2">
+                                        <div class="typopopu">Hôtel Le soleil du matin </div>
                                         <div>Nuit à partir de 128€</div>
+                                        </div>
                                     </div>
                                     <div class="starspopu">
                                         <i class="fa-solid fa-star"></i>
@@ -156,10 +159,10 @@
                                 </div>
                             </div>
                             <div class="popucard1">
-                                <img src="ImagesBooki\hebergements\4_small\popu2.jpg" alt="Image Chambres d'hôtes Au coeur de l'eau" style="width: 37%;">
+                                <img src="ImagesBooki/hebergements/1_xlarge/popu2.jpg" alt="Image Chambres d'hôtes Au coeur de l'eau" style="width: 100%;">
                                 <div class="txtpopu">
-                                    <div>
-                                        <div class="typopopu">Chambres d'hôtes Au coeur de l'eau<br> </div>
+                                    <div class="container2">
+                                        <div class="typopopu">Chambres d'hôtes Au coeur de l'eau </div>
                                         <div>Nuit à partir de 71€</div>
                                     </div>
                                     <div class="starspopu">
@@ -172,12 +175,12 @@
                                 </div>
                             </div>
                             <div class="popucard1">
-                                <img src="ImagesBooki\hebergements\4_small\popu3.jpg" alt="Image Hôtel Bleu et Blanc" style="width: 50.556%;">
+                                <img src="ImagesBooki/hebergements/4_small/popu3.jpg" alt="Image Hôtel Bleu et Blanc" style="width: 100%;">
                                 <div class="txtpopu">
-                                    <div class="txtpopubis">
+                                    <div class="container2">
                                         <div class="typopopu">Hôtel Bleu et Blanc<br> </div>
                                         <div >Nuit à partir de 68€</div>
-                                    </div>
+                                </div>
                                     <div class="starspopu">
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
@@ -188,30 +191,50 @@
                                 </div>
                             </div>
                         </div>
+                        </aside>
                     </div>
                     <div class="titreacti">
-                    <h2>Activités à Marseille</h2>
+                    <h2 id="activités">Activités à Marseille</h2>
                     </div>
-                    <div class="boxacti">
+                    <section class="boxacti">
                     <div class="actiam"> 
-                        <img src="ImagesBooki\activites\4_small\acti1.jpg" alt="Image Vieux-Port" style="width: 100%;">
+                        <img src="ImagesBooki/activites/4_small/acti1.jpg" alt="Image Vieux-Port" style="width: 180%;">
                             <div class="typoacti">Vieux-Port</div>     
                     </div>
                     <div class="actiam"> 
-                        <img src="ImagesBooki\activites\4_small\acti2.jpg" alt="Image Fort de Pomègue" style="width: 100%;">
+                        <img src="ImagesBooki/activites/4_small/acti2.jpg" alt="Image Fort de Pomègue" style="width: 100%;">
                             <div class="typoacti">Fort de Pomègue</div>     
                     </div>
                     <div class="actiam"> 
-                        <img src="ImagesBooki\activites\4_small\acti3.jpg" alt="Image Parc National des Calanques" style="width: 100%;">
+                        <img src="ImagesBooki/activites/4_small/acti3.jpg" alt="Image Parc National des Calanques" style="width: 150%;">
                             <div class="typoacti">Parc National des Calanques</div>     
                     </div>
                     <div class="actiam"> 
-                        <img src="ImagesBooki\activites\4_small\acti4.jpg" alt="Image Vieux-Port" style="width: 100%;">
+                        <img src="ImagesBooki/activites/4_small/acti4.jpg" alt="Image Vieux-Port" style="width: 150%;">
                             <div class="typoacti">Notre-Dame-de-la-Garde</div>     
                     </div>
-                    </div>
+                </section>
                 </main>
+            
+                <footer>
+                    <div class="foot">
+                    <Ul style="list-style-type:none;">
+                        <li>À propos</li>
+                        <LI>Fonctionnement du site</LI>
+                        <li>Conditions générales</li>
+                        <li>Données et confidentialité</li>
+                    </Ul>
+                    <ul style="list-style-type:none;">
+                        <li>Nos hébergements</li>
+                        <li>Charte qualité</li> 
+                        <li>Proposer votre hôtel</li>
+                    </ul>
+                    <ul style="list-style-type:none;">
+                        <li>Assistance</li>
+                        <li>Centre d'aide</li>
+                        <li>Nous contacter</li>
+                    </ul>
+                </div>
+            </footer>
             </body>
-        <footer>
-        </footer>
 </html>
