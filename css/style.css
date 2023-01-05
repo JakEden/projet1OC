@@ -98,7 +98,7 @@ p {
 .eco:hover{
     background-color: #deebff;
 }
-.fami{
+/* .fami{
     padding: 0.7% ;
     margin:0.7% ;
     border:1px solid #D9D9D9;
@@ -124,7 +124,7 @@ p {
 }
 .anim:hover {
     background-color: #deebff;
-}
+} */
 .info1{
     display: flex;
     align-items: center;
