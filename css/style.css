@@ -94,9 +94,35 @@ p {
     margin:0.7% ;
     border:1px solid #D9D9D9;
     border-radius: 15px 15px 15px 15px;
-    cursor: pointer;
 }
 .eco:hover{
+    background-color: #deebff;
+}
+.fami{
+    padding: 0.7% ;
+    margin:0.7% ;
+    border:1px solid #D9D9D9;
+    border-radius: 15px 15px 15px 15px;
+}
+.fami:hover {
+    background-color: #deebff;
+}
+.roma{
+    padding: 0.7% ;
+    margin:0.7% ;
+    border:1px solid #D9D9D9;
+    border-radius: 15px 15px 15px 15px;
+}
+.roma:hover{
+    background-color: #deebff;
+}
+.anim{
+    padding: 0.7% ;
+    margin:0.7% ;
+    border:1px solid #D9D9D9;
+    border-radius: 15px 15px 15px 15px;
+}
+.anim:hover {
     background-color: #deebff;
 }
 .info1{
@@ -343,6 +369,7 @@ li:hover{
     width: 100%;
     margin-top: 0%;
     margin-right: 0;
+
 }
 .actv{
     border-width: 500px;
@@ -369,9 +396,7 @@ li:hover{
     padding-top: 10%;
 }
 .filt {
-    display: flex;
     margin-top: 7%;
-    align-items: flex-start;
     flex-wrap: wrap;
 }
 .fil{
@@ -385,6 +410,30 @@ li:hover{
     width: 35%;
     padding: 2% 2% 2% 2% ;
     margin:1% 8% 3% 6%  ;
+    border-radius: 25px;
+}
+.fami{
+    white-space: nowrap;
+    overflow: hidden;
+    width: 35%;
+    padding: 2% 2% 2% 2% ;
+    margin:1% 0% 3% 0%; 
+    border-radius: 25px;
+}
+.roma{
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 2% 2% 2% 2% ;
+    margin:1% 8% 3% 6%; 
+    width: 35%;
+    border-radius: 25px;
+}
+.anim{
+    white-space: nowrap;
+    overflow: hidden;
+    width: 35%;
+    padding: 2% 2% 2% 2% ;
+    margin:1% 0% 3% 0%;
     border-radius: 25px;
 }
 .center {
@@ -446,6 +495,7 @@ li:hover{
     margin-bottom: 5%;    
 }
 .actiam img {
+
     max-height: 200px; 
 }
 .foot{
