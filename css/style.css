@@ -343,7 +343,6 @@ li:hover{
     width: 100%;
     margin-top: 0%;
     margin-right: 0;
-
 }
 .actv{
     border-width: 500px;
@@ -386,30 +385,6 @@ li:hover{
     width: 35%;
     padding: 2% 2% 2% 2% ;
     margin:1% 8% 3% 6%  ;
-    border-radius: 25px;
-}
-.fami{
-    white-space: nowrap;
-    overflow: hidden;
-    width: 35%;
-    padding: 2% 2% 2% 2% ;
-    margin:1% 0% 3% 0%; 
-    border-radius: 25px;
-}
-.roma{
-    white-space: nowrap;
-    overflow: hidden;
-    padding: 2% 2% 2% 2% ;
-    margin:1% 8% 3% 6%; 
-    width: 35%;
-    border-radius: 25px;
-}
-.anim{
-    white-space: nowrap;
-    overflow: hidden;
-    width: 35%;
-    padding: 2% 2% 2% 2% ;
-    margin:1% 0% 3% 0%;
     border-radius: 25px;
 }
 .center {
@@ -471,7 +446,6 @@ li:hover{
     margin-bottom: 5%;    
 }
 .actiam img {
-
     max-height: 200px; 
 }
 .foot{
