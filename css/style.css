@@ -94,35 +94,9 @@ p {
     margin:0.7% ;
     border:1px solid #D9D9D9;
     border-radius: 15px 15px 15px 15px;
+    cursor: pointer;
 }
 .eco:hover{
-    background-color: #deebff;
-}
-.fami{
-    padding: 0.7% ;
-    margin:0.7% ;
-    border:1px solid #D9D9D9;
-    border-radius: 15px 15px 15px 15px;
-}
-.fami:hover {
-    background-color: #deebff;
-}
-.roma{
-    padding: 0.7% ;
-    margin:0.7% ;
-    border:1px solid #D9D9D9;
-    border-radius: 15px 15px 15px 15px;
-}
-.roma:hover{
-    background-color: #deebff;
-}
-.anim{
-    padding: 0.7% ;
-    margin:0.7% ;
-    border:1px solid #D9D9D9;
-    border-radius: 15px 15px 15px 15px;
-}
-.anim:hover {
     background-color: #deebff;
 }
 .info1{
