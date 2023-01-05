@@ -5,14 +5,11 @@ html {
 body {
     margin: 0 0 0 0;
     font-family: 'Raleway', sans-serif;
-
 }
 h1 {
 margin-left: 4%;
 margin-bottom: 0.6%;
 }
-
-
 p {
     margin-left: 4%;
     margin-bottom: 1%;
@@ -42,7 +39,6 @@ p {
     border-top: 3px #0065FC solid;
     padding-top: 15%;
 }
-
 .booki_logo {
      width: 50%;
      margin-left: 40%;
@@ -54,7 +50,6 @@ p {
     text-decoration: none;
     color: black;
 }
-
 .bouton1 {
     width: 15%;
     max-width: 132px;
@@ -66,7 +61,6 @@ p {
 .bouton1 i{
     display: none;
 }
-
 .icon_dot {
     margin-left: 4%;
     display: flex;
@@ -77,15 +71,12 @@ p {
     border-radius: 15px 0px 0px 15px;
     text-align: center;
 }
-
 .icon_dot i{
     margin: auto;
 }
-
 .formulaire {
     display: flex;   
 }
-
 .filt {
     display: flex;
     align-items: flex-start;
@@ -98,11 +89,9 @@ p {
     padding: 0.9% 0.5% 0.5% 0.5%;
     margin:0.5% 0.5% 0.5% 3.8% ;
 }
-
 .eco {
     padding: 0.7% ;
     margin:0.7% ;
-    
     border:1px solid #D9D9D9;
     border-radius: 15px 15px 15px 15px;
 }
@@ -140,8 +129,6 @@ p {
     display: flex;
     align-items: center;
 }
-
-
  .info2  {
     display: flex;
     width: 1.8%;
@@ -150,13 +137,10 @@ p {
     margin-right: 1%;
     margin-left: 4%;
 } 
-
 .info2 i{
-
     color: #0065FC;
     margin: auto;
 }
-
 .center {
     display: flex;
     justify-content: space-around;
@@ -169,13 +153,10 @@ p {
     width: 62%;
     background-color: #f2f2f2;
     border-radius: 20px;
-    
-
 }
 .hbrgam h2 {
     margin: 4.5% 35% 0 4.5%;
  }
-
 .card1 {
     margin-top: 4%;
     margin-left: 4%;
@@ -206,13 +187,10 @@ p {
     overflow-wrap : break-word;
     padding: 2px 4px;
   }
-  
-
   .typo{
     font-weight: Bold;
     white-space: nowrap;
     text-overflow: clip;
-    
   }
 .stars {
     padding-left:4px ;
@@ -229,16 +207,11 @@ i:nth-child(5) {
     border-bottom: 2px black solid;
     cursor: pointer;
 }
-
 .popu{
-
     width: 29%;
-    
     background-color: #f2f2f2;
     border-radius: 20px;
-
 }
-
 .pop_head {
     display: flex;
     justify-content: space-between;
@@ -252,7 +225,6 @@ i:nth-child(5) {
     color: #0065FC;
     margin: 12% 9% 0 0; 
 }
-
 .popucard1 {
     display: flex;
     flex-direction: row;
@@ -263,10 +235,8 @@ i:nth-child(5) {
     transition: 0.3s;
     margin: 3% 3% 8% 4%;
     image-rendering: pixelated; 
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
-
 .popucard1 img {
     max-width: 40%;
     border: 5px solid #FFFFFF;
@@ -277,36 +247,30 @@ i:nth-child(5) {
   }
   .txtpopu {
     display: flex;
-    
     flex-wrap: wrap;
     align-content: space-between;  
     margin-bottom: 10px;
-    
   }
 
-
-  
-  .starspopu{
+.starspopu{
     display: flex;
   }
-  .typopopu {
+.typopopu {
     font-weight: 700;
     margin-bottom: 10px;
     margin-top: 10px;    
-  
   } 
-  .starspopu{
+.starspopu{
     color: #0065FC;
   }
-  .nuitpart {
+
+.nuitpart {
     font-weight: 600;
   }
   .chart {
     color: #0065FC;
   }
- 
 .actiam {
-    overflow: hidden;
     width: 100%;
     height: auto;
     margin: 0 3% 0 3%;
@@ -316,13 +280,14 @@ i:nth-child(5) {
     border-radius: 20px 20px 20px 20px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);   
   }
+
 .actiam img {
     width: 100%;
     height: auto;
     border-radius: 20px 20px 0 0 ;
     height: 85%;
-    
 }
+
 .typoacti {
     font-size: 90%;
     font-style: normal;
@@ -341,7 +306,6 @@ footer{
 }
 .foot{
     margin: 4% 4% -1% 0%;
-    
     display: flex;
     justify-content: space-around;
     background-color: #F2F2F2;
@@ -356,14 +320,11 @@ li {
     margin-bottom: 10%;
 }
 li:hover{
-    border-bottom: 2px black solid;
     cursor: pointer;
 }
-
-@media all and (min-width: 769px) and (max-width: 992px) {
+@media all and (min-width: 768px) and (max-width: 992px) {
 
     .center {
-        
         flex-direction: column;
         margin-left:4%;
         margin-right: -4%;
@@ -392,13 +353,12 @@ li:hover{
         margin: 5% 5% 0% 0%;
     }  
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
 
     .booki_header {
         flex-direction: column;
     }
     .booki_logo {
-        
         width: 25%;
         margin: auto;    
    }
@@ -418,14 +378,12 @@ li:hover{
     padding-bottom: 1%;
 }
 .hbrg{
-    
     border-bottom:3px #F2F2F2 solid; 
     padding-bottom: 1%;
     border-top: none;
     padding-top: 10%;
 }
 .actv:hover {
-    
     border-bottom: 3px #0065FC solid;
     padding-bottom: 1%;
     border-top: none;
@@ -433,7 +391,6 @@ li:hover{
 }
 .hbrg:hover {
     border-bottom: 3px #0065FC solid;
-    
     padding-bottom: 1%;
     border-top: none;
     padding-top: 10%;
@@ -441,19 +398,15 @@ li:hover{
 .filt {
     display: flex;
     margin-top: 7%;
-    
-    
     align-items: flex-start;
     flex-wrap: wrap;
 }
 .fil{
     font-weight: 700;
     padding: 0.9% 40% 0.5% 1.5%;
-
 }
 
 .eco {
-    
     white-space: nowrap;
     overflow: hidden;
     width: 35%;
@@ -462,7 +415,6 @@ li:hover{
     border-radius: 25px;
 }
 .fami{
-    
     white-space: nowrap;
     overflow: hidden;
     width: 35%;
@@ -471,7 +423,6 @@ li:hover{
     border-radius: 25px;
 }
 .roma{
-    
     white-space: nowrap;
     overflow: hidden;
     padding: 2% 2% 2% 2% ;
@@ -480,7 +431,6 @@ li:hover{
     border-radius: 25px;
 }
 .anim{
-    
     white-space: nowrap;
     overflow: hidden;
     width: 35%;
@@ -503,23 +453,11 @@ li:hover{
 .popucard0 {
     display : flex;
     flex-direction: column;
-    width: 100%;
-    
+    width: 100%;  
 }
 .popucard1 {
-    
-    display: flex;
-    flex-direction: row;
     width: 83%;
-    height: 144px; 
-    background-color: white;
     padding-right: 10%;
-    border-radius: 20px;
-    transition: 0.3s;
-    
-    image-rendering: pixelated; 
-    cursor: pointer;
-    
 }
 
 .hbrgam {
@@ -530,20 +468,13 @@ li:hover{
     width: 90%;    
 }
 .hbrgam h2 {
-    margin: 4.5% 0% 0 4.5%;
-    
+    margin: 4.5% 0% 0 4.5%; 
  }
 .card1 {
     margin-left: 0;
     padding-bottom:10% ;
     background-color: #FFFFFF;
-    width: 98%;
-    transition: 0.3s;
-    border: 5px solid #FFFFFF; 
-    border-radius: 20px 20px 20px 20px;
-    cursor: pointer;
-    image-rendering: pixelated;
-      
+    width: 98%;  
 }
 .card1 img {
     width: 100%;
@@ -563,12 +494,11 @@ li:hover{
 .actiam{
     margin: auto; 
     width: 90%;
-    margin-bottom: 5%;
-    
+    margin-bottom: 5%;    
 }
 .actiam img {
-    max-width: 100%;
-    height: 200px;
+
+    max-height: 200px; 
 }
 .foot{
     margin: 4% 0% -1% 0%;
@@ -601,5 +531,5 @@ p {
 li:hover{
     border-bottom: none;
 }
-  }
+}
 
