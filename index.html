@@ -1,25 +1,62 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <script src="https://kit.fontawesome.com/9d609b1277.js" crossorigin="anonymous"></script> <!--fontawesome-->
-        <link href="css/style.css" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">  <!--police-->
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!--police-->
-        <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&family=Raleway:wght@400;700&display=swap" rel="stylesheet"><!--police-->
-        <title>Booki</title>
-    </head>
-            <body>
-                <header>
-                    <div class="booki_header">
-                        <a href="index.html">
-                            <img src="images/logo/Booki.png" alt="logo_booki" class="booki_logo">
-                        </a>
-                            <nav class="lien_header">
-                                <a href="#hebergements" class="hbrg">Hébergements</a>
-                                <a href="#activités" class="actv">Activités</a>
-                            </nav>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="https://kit.fontawesome.com/9d609b1277.js" crossorigin="anonymous"></script><!--fontawesome-->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--police-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!--police-->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&family=Raleway:wght@400;700&display=swap" rel="stylesheet"><!--police-->
+    <title>Booki</title>
+</head>
+
+<body>
+    <div class="content">
+        <header>
+            <div class="header_content">
+                <a href="index.html">
+                    <img src="images/logo/Booki.png" alt="logo_booki" class="header_logo">
+                </a>
+                <nav class="header_link">
+                    <a href="#title_lodging_in_marseille" class="lodging">Hébergements</a>
+                    <a href="#title_activity" class="activity">Activités</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <h1>Trouvez votre Hébergements pour des vacances de rêve</h1>
+            <p>En plein cente-ville ou en pleine nature</p>
+
+            <form method="get" action="#" class="form">
+                <div class="icon_dot">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <label for="dot"></label>
+                <input type="text" name="dot" id="dot" placeholder="Marseille, France" size="30" maxlength="20" class="button_border">
+                <button class="form_button"><span class="research">Rechercher</span><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <div class="filter_container">
+                <div class="filter">Filtres</div>
+                <div class="filter_economic"> <i class="fa-solid fa-money-bill-wave"></i> Économique</div>
+                <div class="filter_family"> <i class="fa-solid fa-person"></i> Familial</div>
+                <div class="filter_romantic"> <i class="fa-solid fa-heart"></i> Romantique</div>
+                <div class="filter_pets_allowed"> <i class="fa-solid fa-dog"></i> Animaux autorisée</div>
+            </div>
+            <div class="information_container">
+                <div class="information_logo"> <i class="fa-solid fa-info"> </i> </div>
+                <span>Plus de 500 logements sont disponibles dans cette ville </span>
+            </div>
+
+            <div class="main_content">
+                <article class="container_lodging_in_marseille">
+                    <h2 id="title_lodging_in_marseille">Hébergements à Marseille</h2>
+                    <div class="card_lodging_in_marseille">
+                        <img src="images/hebergements/4_small/hebergement1.jpg" alt="Image Hôtel de La Canebière">
+                        <div class="card_text_container">
+                            <span class="text_style">Hôtel de La Canebière<br></span>
+                            <span>Nuit à partir de 25€</span>
                         </div>
                 </header>
                 <main>

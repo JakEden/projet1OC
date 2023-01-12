@@ -19,7 +19,8 @@ p {
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
 }
-.aaa {
+
+.button_border {
     border: 2px #F2F2F2 solid;
 }
 
